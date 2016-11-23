@@ -1,0 +1,33 @@
+{
+  "name": "jules-loginapp",
+  "version": "0.0.1",
+  "description": "simple authentication app",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "passport",
+    "authentication",
+    "nodejs"
+  ],
+  "author": "Juliana Marie Morales <julianamariem@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "connect-flash": "*",
+    "cookie-parser": "^1.4.1",
+    "express": "*",
+    "express-handlebars": "*",
+    "express-messages": "*",
+    "express-session": "*",
+    "express-validator": "*",
+    "mongodb": "*",
+    "mongoose": "*",
+    "passport": "*",
+    "passport-http": "*",
+    "passport-local": "*",
+    "passport-twitter": "*"
+  }
+}
