@@ -4,7 +4,7 @@
   "description": "simple authentication app",
   "main": "app.js",
   "scripts": {
-    "test": "mocha"
+    "start": "node app.js"
   },
   "keywords": [
     "passport",
